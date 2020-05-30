@@ -1,0 +1,9 @@
+@media(max-width: 1000px) {
+    .header-container {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    nav {
+        margin-top: 35px;
+    }
+}
