@@ -3,6 +3,14 @@
 *::after {
     box-sizing: border-box;
 }
+:root {
+    --green: #59c45a;
+    --background: #ffffff;
+    --fontColor: #474747;
+    --textColor: #959595;
+    --width: 1920px;
+    --conainerWidth: 1170px;
+}
 .body {
     font-family: 'Lato', sans-serif;
 }
