@@ -80,7 +80,7 @@ nav a:hover {
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
-    background: url(../img/bg-1.png) center/cover fixed;
+    background: url(../img/home/bg-1.png) center/cover fixed;
     width: auto;
     padding: 350px 15px 195px;
 }
@@ -131,3 +131,67 @@ nav a:hover {
 .button-boocing:hover::before {
     transform: translateX(500px) rotate(30deg);
 }
+/*----------------------Favorable-------------------------------*/
+.favorable {
+    padding: 100px 0;
+}
+section:not(.contact) h2 {
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--green);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+section:not(.contact) h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 1px;
+    background: var(--textColor);
+    margin: 0 auto;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section:not(.contact) h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    left: 50%;
+    top: 39px;
+    transform: translateX(-50%);
+}
+.about-favorable {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.Bloc-1 {
+    flex-grow: 1;
+    max-width: 570px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.Bloc-1 img {
+    margin-right: 30px;
+}
+.Bloc-text h6 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--fontColor);
+    margin: 15px 0 25px; 
+}
+.Bloc-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--textColor);
+    margin: 0 0;
+    text-align: justify;
+} 
