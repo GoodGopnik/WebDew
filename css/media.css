@@ -1,9 +1,21 @@
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
     .header-container {
         flex-direction: column;
-        margin-top: 15px;
+    }
+    .logo {
+        margin: 20px;
     }
     nav {
-        margin-top: 35px;
+        width: 100%;
+    }
+    nav li {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+@media (max-width: 700px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
     }
 }
