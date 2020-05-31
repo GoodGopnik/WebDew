@@ -18,4 +18,11 @@
         flex-direction: column;
         text-align: center;
     }
+    li {
+        margin: 5px;
+        background: #59c45a;
+    }
+    .header-container {
+        padding-bottom: 15px;
+    }
 }
