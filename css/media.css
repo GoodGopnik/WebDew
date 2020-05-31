@@ -12,6 +12,10 @@
         flex-grow: 1;
         text-align: center;
     }
+    .home {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 @media (max-width: 700px) {
     ul {
@@ -24,5 +28,13 @@
     }
     .header-container {
         padding-bottom: 15px;
+    }
+}
+@media (max-width: 450px) {
+    .home h1 {
+        font-size: 44px;
+    }
+    .button-boocing {
+        padding: 10px 25px;
     }
 }
