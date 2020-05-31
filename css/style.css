@@ -172,13 +172,13 @@ section:not(.contact) h2::before {
     justify-content: space-between;
 }
 .Bloc-1 {
-    flex-grow: 1;
+    width: 50%;
     max-width: 570px;
     display: flex;
     margin-bottom: 30px;
 }
-.Bloc-1 img {
-    margin-right: 30px;
+.Bloc-text {
+    margin-left: 30px;
 }
 .Bloc-text h6 {
     font-size: 15px;

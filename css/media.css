@@ -1,5 +1,11 @@
-@media (max-width: 1000px) {
-    
+@media (max-width: 1200px) {
+    .Bloc-1 {
+        flex-direction: column;
+    }
+    .Bloc-1 img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 1000px) {
     .header-container {
@@ -32,6 +38,27 @@
     .header-container {
         padding-bottom: 15px;
     }
+    .Bloc-1 {
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+    }
+    .about-favorable {
+        flex-direction: column;
+    }
+    .Bloc-text {
+        margin: 0 0;
+        padding: 0 0;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .Bloc-1 {
+        flex-direction: column;
+    }
+    .Bloc-text {
+        margin-right: 15px;
+    }
 }
 @media (max-width: 450px) {
     .home h1 {
@@ -40,4 +67,5 @@
     .button-boocing {
         padding: 10px 25px;
     }
+    
 }
