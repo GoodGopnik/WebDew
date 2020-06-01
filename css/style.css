@@ -195,3 +195,53 @@ section:not(.contact) h2::before {
     margin: 0 0;
     text-align: justify;
 } 
+/*----------------------Service-------------------------------*/
+.Service {
+    background: #efeeee;
+    display: flex;
+}
+.slider-service {
+    flex-grow: 2;
+    width: 50%;
+}
+.text-service{
+    flex-grow: 1;
+    padding: 65px 50px;
+}
+.service-container {
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.Text-bloc {
+    flex: 0 0 40%;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 25px 0;
+}
+.Text-bloc p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--textColor);
+    margin: 25px 0 30px;
+}
+.slick-dots {
+    position: absolute;
+    list-style: none;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.slick-dots li {
+    margin: 0 6;
+}
+.slick-dots button {
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}

@@ -25,6 +25,12 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .Service {
+        flex-direction: column;
+    }
+    .slider-service {
+        width: 100%;
+    }
 }
 @media (max-width: 700px) {
     ul {
@@ -50,6 +56,11 @@
         margin: 0 0;
         padding: 0 0;
         margin-left: 15px;
+    }
+    .Text-bloc {
+        flex: 0 0 100%;
+        margin: 0;
+        max-width: 100%;
     }
 }
 @media (max-width: 600px) {
