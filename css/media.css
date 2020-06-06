@@ -76,9 +76,33 @@
 @media (max-width: 600px) {
     .Bloc-1 {
         flex-direction: column;
+        width: 100%;
     }
-    .Bloc-text {
-        margin-right: 15px;
+    .abolut-logo-1 {
+        display: flex;
+        justify-content: center;
+    }
+    .box-text {
+        flex-direction: column;
+    }
+    .box-1 {
+        margin: 0;
+        padding: 20px 0px;
+        width: 100%;
+    }
+    .box-1 p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .box-2 {
+        width: 100%;
+    }
+    .but {
+        width: auto;
+        height: auto;
+    }
+    .button-contact {
+        padding-bottom: 30px;
     }
 }
 @media (max-width: 450px) {
