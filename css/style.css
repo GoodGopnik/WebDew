@@ -206,7 +206,7 @@ section:not(.contact) h2::before {
 }
 .text-service{
     flex-grow: 1;
-    padding: 65px 50px;
+    padding: 65px 20px;
 }
 .service-container {
     justify-content: space-around;
@@ -237,11 +237,27 @@ section:not(.contact) h2::before {
     padding: 0;
 }
 .slick-dots li {
-    margin: 0 6;
+    margin: 0 6px;
 }
 .slick-dots button {
     border: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
+    font-size: 0;
+    background: var(--background);
+    opacity: 0.5;
+    outline: none;
+}
+.slick-active button {
+    opacity: 1;
+}
+.slick-list,
+.slick-track {
+    height: 100%;
+    width: 100%;
+}
+.block-slider img {
+    height: 100%;
+    width: 100%;
 }
