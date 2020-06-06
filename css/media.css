@@ -41,13 +41,6 @@
     .Service {
         flex-direction: column;
     }
-    /* .slider-service {
-        width: 100%;
-        height: 400px;
-    }
-    .block-slider img {
-        width: 100%;
-    } */
 }
 @media (max-width: 700px) {
     .header-container ul {
@@ -87,7 +80,6 @@
     .Bloc-text {
         margin-right: 15px;
     }
-}
 @media (max-width: 450px) {
     .home h1 {
         font-size: 44px;
