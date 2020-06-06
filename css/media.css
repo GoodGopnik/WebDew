@@ -80,6 +80,7 @@
     .Bloc-text {
         margin-right: 15px;
     }
+}
 @media (max-width: 450px) {
     .home h1 {
         font-size: 44px;
@@ -87,5 +88,8 @@
     .button-boocing {
         padding: 10px 25px;
     }
-    
+    .button-see {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
 }

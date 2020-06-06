@@ -271,7 +271,8 @@ section:not(.contact) h2::before {
     padding-top: 75px;
     padding-bottom: 70px;
     margin: 0 auto;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     max-width: 1400px;
     text-align: center;
     flex-wrap: wrap;
@@ -279,10 +280,11 @@ section:not(.contact) h2::before {
 .Photo-tours img {
     width: 270px;
     height: 215px;
+    padding: 30px 30px;
 }
 .Photo-tours a {
     text-decoration: none;
-    padding: 30px 30px;
+    
 }
 .button-see {
     padding: 25px 45px;
@@ -316,3 +318,4 @@ section:not(.contact) h2::before {
 .button-see:hover::before {
     transform: translateX(500px) rotate(30deg);
 }
+/*----------------------contact-------------------------------*/
